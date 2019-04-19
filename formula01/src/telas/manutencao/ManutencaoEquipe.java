@@ -43,13 +43,16 @@ public class ManutencaoEquipe extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(51, 0, 204));
+        jLabel1.setForeground(new java.awt.Color(255, 102, 0));
         jLabel1.setText("Manutenção de Equipes");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Código:");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setText("Nome:");
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel4.setText("País:");
 
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -107,7 +110,7 @@ public class ManutencaoEquipe extends javax.swing.JDialog {
                         .addComponent(jButton3)
                         .addGap(86, 86, 86)
                         .addComponent(jButton4)))
-                .addContainerGap(154, Short.MAX_VALUE))
+                .addContainerGap(144, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

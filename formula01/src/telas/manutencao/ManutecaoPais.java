@@ -41,11 +41,13 @@ public class ManutecaoPais extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(51, 0, 255));
+        jLabel1.setForeground(new java.awt.Color(255, 102, 51));
         jLabel1.setText("Manutenção de País");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Sigla:");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel3.setText("Nome:");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -54,6 +56,7 @@ public class ManutecaoPais extends javax.swing.JDialog {
             }
         });
 
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jButton1.setText("Adicionar");
 
         jButton2.setText("Alterar");
@@ -82,7 +85,7 @@ public class ManutecaoPais extends javax.swing.JDialog {
                             .addComponent(jTextField2))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 212, Short.MAX_VALUE)
+                .addGap(0, 216, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addGap(83, 83, 83)
                 .addComponent(jButton2)
